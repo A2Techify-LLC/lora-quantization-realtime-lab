@@ -3,33 +3,29 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "realtime-lora-lab"
+name = "texas-education-kb"
 version = "0.1.0"
-description = "Real-time LoRA fine-tuning and quantization example for a JSON incident router."
+description = "Local-first Texas education knowledge base with citation-focused retrieval."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [{ name = "A2Techify" }]
 dependencies = [
+  "beautifulsoup4>=4.12",
   "pydantic>=2.8",
+  "pypdf>=4.3",
   "pyyaml>=6.0",
+  "requests>=2.32",
 ]
 
 [project.optional-dependencies]
-train = [
-  "accelerate>=0.33",
-  "bitsandbytes>=0.43; platform_system == 'Linux'",
-  "datasets>=2.20",
-  "peft>=0.12",
-  "torch>=2.3",
-  "transformers>=4.44",
-  "trl>=0.9",
-]
 serve = [
   "fastapi>=0.112",
-  "torch>=2.3",
-  "transformers>=4.44",
   "uvicorn[standard]>=0.30",
+]
+embeddings = [
+  "chromadb>=0.5",
+  "sentence-transformers>=3.0",
 ]
 test = [
   "pytest>=8.2",

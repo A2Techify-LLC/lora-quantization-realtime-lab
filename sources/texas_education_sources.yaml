@@ -1,0 +1,35 @@
+sources:
+  - id: tea-graduation
+    title: Texas Education Agency Graduation Toolkit
+    url: https://tea.texas.gov/academics/graduation-information
+    kind: guidance
+    agency: Texas Education Agency
+    topics: [graduation, high_school]
+
+  - id: tea-accountability
+    title: Texas School Accountability
+    url: https://tea.texas.gov/texas-schools/accountability
+    kind: manual
+    agency: Texas Education Agency
+    topics: [accountability, assessment]
+
+  - id: tea-special-education
+    title: Texas Special Education Guidance
+    url: https://tea.texas.gov/academics/special-student-populations/special-education
+    kind: guidance
+    agency: Texas Education Agency
+    topics: [special_education]
+
+  - id: texas-education-code
+    title: Texas Education Code
+    url: https://statutes.capitol.texas.gov/?link=ED
+    kind: law
+    agency: Texas Legislature
+    topics: [law, governance]
+
+  - id: texas-administrative-code-education
+    title: Texas Administrative Code Title 19 Education
+    url: https://texreg.sos.state.tx.us/public/readtac$ext.ViewTAC?tac_view=3&ti=19
+    kind: rule
+    agency: Texas Secretary of State
+    topics: [rules, governance]

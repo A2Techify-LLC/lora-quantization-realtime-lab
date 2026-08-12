@@ -1,0 +1,7 @@
+sources:
+  - id: sample-texas-education
+    title: Texas Education Sample Notes
+    path: data/sample_texas_education.md
+    kind: reference
+    agency: A2Techify
+    topics: [graduation, accountability, special_education]
